@@ -45,7 +45,7 @@ const Posts = (props) => {
 
                         <ul className="grid-lod effect-2" id="grid">
                             {
-                                props.posts.items.filter((o, i) => i % 2 == 0).map((md, index) => {
+                                props.posts.items.filter((o, i) => i % 2 != 0).map((md, index) => {
                                     return (
                                         <li key={index}>
                                             <section className="blog-content">
@@ -70,7 +70,7 @@ const Posts = (props) => {
                     <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                         <ul className="grid-lod effect-2" id="grid">
                             {
-                                props.posts.items.filter((o, i) => i % 2 != 0).map((md, index) => {
+                                props.posts.items.filter((o, i) => i % 2 == 0).map((md, index) => {
                                     return (
                                         <li key={index}>
                                             <section className="blog-content">
