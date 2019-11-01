@@ -26,7 +26,6 @@ const Posts = (props) => {
         <React.Fragment>
             <main role="main-inner-wrapper" className="container">
                 <div className="row">
-
                     <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
                         <article role="pge-title-content" className="blog-header">
                             <header>
@@ -35,7 +34,7 @@ const Posts = (props) => {
                             <div className="filterTagContainer">
                                 {
                                     pageType.filterTags.map((tag, index) => {
-                                        var link = "/posts/categories/" + props.categories[0] + "?pagetype=" + pageType.pageType + "&tags=" + tag;
+                                        var link = "/posts/categories/" + props.categories[0] + "?pagetype=" + pageType.pageType + "&tags=" + [...props.tags, tag].join(",") + "&extags=" + props.exTags.join(",");
                                         return (
                                             <a key={index} className="filterTag" href={link}>{tag}</a>
                                         );
