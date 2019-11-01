@@ -1,6 +1,7 @@
 
 import Posts from "./posts";
 import Home from "./home";
+import AboutUs from "./aboutUs";
 
 const CustomPages = {
     "home":{
@@ -10,6 +11,10 @@ const CustomPages = {
     "posts": {
         "title": "Posts",
         "component": Posts
+    },
+    "aboutus":{
+        "title":"About Us",
+        "component":AboutUs
     }
 }
 

@@ -20,7 +20,13 @@ const TemplateConfig = {
             "coverImage":"https://i.imgur.com/MrRLOC4.png",
             "link":"/posts/?pagetype=uk-food",
         },
-    ]
+    ],
+    aboutUs:{
+        "title":"About Us",
+        "subTitle":"SubTitle",
+        "description":"Description",
+        "content":"This is the content"
+    }
 }
 
 module.exports = TemplateConfig;
