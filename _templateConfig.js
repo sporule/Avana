@@ -4,7 +4,6 @@ const TemplateConfig = {
     {
         "Home": "/"
     },
-    pages: ["aboutUs"],
     pageTypes:{
         "all":{
             "title":"All Posts",
