@@ -1,2 +1,2 @@
-# loffer-theme
+# Avana-theme
 A template for Sporule
