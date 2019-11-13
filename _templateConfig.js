@@ -11,6 +11,16 @@ const TemplateConfig = {
             "filterTags":[],
             "pageType":"all"
         },
+         "search": {
+            "title": "Search",
+            "subTitle": "",
+            "description":"",
+            "tags":[""],
+            "extags":[],
+            "filterTags": [],
+            "pageType": "search"
+        },
+
     },
     homeItems:[
         {
