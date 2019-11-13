@@ -97,17 +97,19 @@ header[role="header"] nav ul {
 }
 
 
-.searchBox{
-    float:right;
-    margin-right:30px;
-}
-
 .searchBox input[type="text"]{
-    width: 100%;
+    text-align: center;
+    width: 30%;
+    margin-left:35%;
+    margin-bottom:169px;
     display: block;
     outline: none;
     border-bottom: 1px solid #bbbbbb;
     background-color: inherit;
     color: #404040;
     line-height: 23px;
+}
+
+header[role="header"] nav ul{
+    padding-top: 30px!important;
 }
