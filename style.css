@@ -86,3 +86,28 @@ img{
 .nav-item{
     display: block;
 }
+
+
+header[role="header"] nav #menu-button{
+    z-index:9999!important;
+}
+
+header[role="header"] nav ul {
+    z-index:9990!important;
+}
+
+
+.searchBox{
+    float:right;
+    margin-right:30px;
+}
+
+.searchBox input[type="text"]{
+    width: 100%;
+    display: block;
+    outline: none;
+    border-bottom: 1px solid #bbbbbb;
+    background-color: inherit;
+    color: #404040;
+    line-height: 23px;
+}
