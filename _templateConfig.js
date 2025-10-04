@@ -24,15 +24,15 @@ const TemplateConfig = {
     },
     homeItems:[
         {
-            "title":"Title",
+            "title":"This is the site title",
             "titleBold":"BOLD",
-            "subTitle":"SubTitle",
+            "subTitle":"This is the sub title",
             "coverImage":"https://i.imgur.com/MrRLOC4.png",
             "link":"/posts/?pagetype=uk-food",
         },
     ],
     aboutUs:{
-        "title":"About Us",
+        "title":"This is About Us",
         "subTitle":"SubTitle",
         "description":"Description",
         "content":"This is the content"
